@@ -1,9 +1,24 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Sliders from './components/sliders'
+// import Components here!
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <main>
+        <section>
+          <header className="header">COLOR-PICKER</header>
+          <section className="main-body">
+            <div className="box-container">
+              <Sliders />
+            </div>
+          </section>
+        </section>
+        <footer>
+          <button type="button">Click Me!</button>
+        </footer>
+      </main>
+    )
   }
 }
 
