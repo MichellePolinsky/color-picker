@@ -76,6 +76,6 @@ button {
   width: 6rem;
   box-shadow: 5px;
   border-style: solid;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
