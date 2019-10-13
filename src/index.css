@@ -29,11 +29,8 @@ main {
   height: 35px;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: whitesmoke;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  border-style: ridge;
-  border-radius: 1rem;
 }
 
 .box-container {
