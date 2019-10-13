@@ -1,8 +1,9 @@
 :root {
-  font: 26px / 1 sans-serif;
+  font: 16px / 1 sans-serif;
   text-align: center;
   display: inline-block;
   /* background-color: darkgrey; */
+  font-weight: bold;
 }
 
 html {
@@ -12,18 +13,25 @@ html {
 main {
   margin: 0;
   min-height: 100%;
-  background-image: url('./components/Images.js/photo-1519145897500-869c40ccb024.jpeg');
+  background-image: url('./components/Images.js/yellow.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: left;
+  padding-left: 22rem;
 }
 
 .header {
   text-align: center;
-  font-size: 44px;
+  font-size: 24px;
   text-decoration: underline;
-  height: 45px;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  height: 35px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: whitesmoke;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   border-style: ridge;
   border-radius: 1rem;
 }
@@ -35,8 +43,8 @@ main {
 .box-div {
   justify-content: center;
   text-align: center;
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 35px;
   border: 30px whitesmoke;
   border-style: solid;
   padding: 10px;
@@ -46,17 +54,17 @@ main {
 }
 
 .hue {
-  height: 45px;
+  height: 35px;
   justify-content: center;
 }
 
 .sat {
-  height: 45px;
+  height: 35px;
   justify-content: center;
 }
 
 .light {
-  height: 45px;
+  height: 35px;
   justify-content: center;
 }
 
@@ -72,4 +80,5 @@ button {
   box-shadow: 5px;
   border-style: solid;
   border-radius: 1rem;
+  margin-bottom: 1rem;
 }

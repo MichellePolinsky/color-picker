@@ -60,7 +60,7 @@ const HookSliders = () => {
           }}
         />
       </div>
-      <h2> {`hsl(${hue},${sat}% ,${light}%)`}</h2>
+      <h3> {`hsl(${hue},${sat}% ,${light}%)`}</h3>
       <button onClick={RandomColor}>Random</button>
     </section>
   )
